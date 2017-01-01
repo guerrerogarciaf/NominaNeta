@@ -1,0 +1,203 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+	android:baselineAligned="false">
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:paddingTop="5dp"    
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">  
+	<GridLayout  
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:focusableInTouchMode="true"     
+ 	 android:paddingTop="6dp"  
+ 	android:columnCount="2">    
+	<TextView
+	    android:layout_columnSpan="2"
+	    android:layout_gravity="left"
+	    android:text="@string/opciones"
+	    android:textSize="19sp"
+	    android:fontFamily="sans-serif-light"/>
+	   
+    <View
+   		android:layout_column="0"
+        android:layout_height="1dp"
+        android:layout_columnSpan="2"
+        android:background="@color/azul"/>  
+	<TextView      
+        android:layout_column="0"
+        android:layout_gravity="left"
+        android:textColor="@color/azul"
+       	android:text="@string/estado_civil" /> 	
+   	 <Spinner	
+ 		android:layout_column="1"
+ 		android:layout_width="120dp"
+ 		android:id="@+id/estado_spinner"
+ 		android:layout_gravity="left"/>   	
+   	 <TextView	
+        android:layout_column="0"
+        android:layout_gravity="left"
+        android:textColor="@color/azul"
+        android:text="@string/anyo_nacimiento" />
+	<EditText 
+    	android:imeOptions="actionDone"    
+    	style="@style/Texto"
+    	android:layout_gravity="left"
+    	android:layout_column="1"
+    	android:id="@+id/anyo_edittext"   	  	
+   	    android:layout_width="77sp" 
+  		android:inputType="number"
+  		android:maxLength="4"
+		android:digits="0123456789" /> 	
+	<TextView
+      	android:layout_column="0"
+        android:layout_gravity="left"
+        android:textColor="@color/azul"
+       	android:text="@string/sueldo_bruto_anual" />
+	<EditText 
+    	style="@style/Texto"
+    	android:imeOptions="actionDone" 
+    	android:id="@+id/sueldo_edittext" 
+   	    android:layout_width="85dp" 
+  		android:layout_gravity="left"
+    	android:layout_column="1"
+  		android:inputType="number"
+  		android:maxLength="7"
+		android:digits="0123456789" />
+	<TextView
+        android:layout_column="0"
+        android:layout_gravity="left"
+        android:textColor="@color/azul"
+       	android:text="@string/categoria" />
+   	 <Spinner
+ 		android:id="@+id/categoria_spinner"
+ 		android:layout_gravity="left"
+ 		android:layout_width="120dp"
+    	android:layout_column="1" />
+	<TextView
+        android:layout_column="0"
+        android:layout_gravity="left"
+        android:textColor="@color/azul"
+       	android:text="@string/contrato" />
+   	 <Spinner
+ 		android:id="@+id/contrato_spinner"
+ 		android:layout_gravity="left"
+ 		android:layout_width="120dp"
+    	android:layout_column="1" />
+	<TextView
+        android:layout_column="0"
+        android:layout_gravity="left"
+        android:textColor="@color/azul"
+       	android:text="@string/deduccion" />
+   	 <Spinner
+ 		android:id="@+id/deduccion_spinner"
+ 		android:layout_gravity="left"
+    	android:layout_column="1" />
+   	 <TextView
+        android:layout_column="0"
+        android:layout_gravity="left"   
+        android:textColor="@color/azul"
+       	android:text="@string/pagas" />
+   	 <Spinner
+ 		android:layout_column="1" 
+    	android:layout_gravity="left"
+ 		android:id="@+id/pagas_spinner" />
+   	 <TextView
+        android:layout_column="0"
+        android:layout_gravity="left"     
+        android:width="200dp"
+        android:lines="3"
+        android:textColor="@color/azul"
+        android:text="@string/hijos1" />
+	<EditText 
+    	style="@style/Texto"
+    	android:imeOptions="actionDone" 
+    	android:layout_column="1" 
+    	android:layout_gravity="left"
+    	android:id="@+id/hijos1_edittext" 
+   	    android:layout_width="55dp" 
+  		android:inputType="number"
+  	  	android:maxLength="2"
+		android:digits="0123456789" />
+	<TextView
+	    android:layout_column="0"
+	    android:layout_gravity="left"
+	    android:lines="2"
+	    android:width="200dp"
+	    android:textColor="@color/azul"
+	    android:text="@string/hijos2" />
+	<EditText 
+    	style="@style/Texto"
+    	android:imeOptions="actionDone" 
+    	android:layout_column="1" 
+    	android:layout_gravity="left"
+    	android:id="@+id/hijos2_edittext" 
+   	    android:layout_width="55dp" 
+  	  	android:inputType="number"
+  		android:maxLength="2"
+		android:digits="0123456789" />
+	 <TextView
+		android:layout_column="0"
+        android:layout_gravity="left" 
+        android:lines="3"
+	    android:width="200dp"    
+	    android:textColor="@color/azul"
+       	android:text="@string/asc1" />
+	<EditText 
+    	style="@style/Texto"
+    	android:imeOptions="actionDone" 
+    	android:layout_column="1" 
+    	android:layout_gravity="left"
+    	android:id="@+id/asc1_edittext" 
+  		android:inputType="number"
+  		android:layout_width="55dp" 
+  		android:maxLength="2"
+		android:digits="0123456789" />
+	<TextView
+        android:layout_column="0"
+        android:layout_gravity="left"   
+        android:lines="3"
+	    android:width="200dp"
+	    android:textColor="@color/azul"
+        android:text="@string/asc2" />
+	<EditText 
+    	style="@style/Texto"
+    	android:imeOptions="actionDone" 
+    	android:layout_column="1" 
+    	android:layout_gravity="left"
+    	android:id="@+id/asc2_edittext" 
+   	    android:layout_width="55dp" 
+  		android:inputType="number"
+  		android:maxLength="2"
+		android:digits="0123456789" />
+    <View
+   		android:layout_column="0"
+        android:layout_height="1dp"
+        android:layout_columnSpan="2"
+        android:background="@color/azul"/>   
+	 <Button
+        android:layout_column="0" 
+        android:paddingTop="12dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:onClick="BotonCalcular"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/calcular_boton" />
+ </GridLayout> 
+  </ScrollView>
+  <LinearLayout       
+        android:id="@+id/principal_linear"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>	
+</LinearLayout>
+
+
+
+

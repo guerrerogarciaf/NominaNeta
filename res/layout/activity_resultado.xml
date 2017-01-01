@@ -1,0 +1,132 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+	android:baselineAligned="false">
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:paddingTop="5dp" >							 
+	<GridLayout 
+   	 	android:id="@+id/resultado_grid"
+    	android:layout_width="fill_parent"
+   		android:layout_height="wrap_content" 
+    	android:focusableInTouchMode="true"     
+ 		android:columnCount="2">    
+	<TextView
+	    android:paddingLeft="5dp"
+	    android:layout_columnSpan="2"
+	    android:layout_gravity="left"
+	    android:text="@string/resultado"
+	    android:textSize="19sp"
+	    android:fontFamily="sans-serif-light" />
+    <View
+   		android:paddingLeft="5dp"
+        android:layout_height="1dp"
+        android:layout_columnSpan="2"
+        android:background="@color/azul"/>  
+	<TextView
+        android:id="@+id/sueldo_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif-light"
+       	android:text="@string/sueldo_bruto_anual" /> 	
+     <TextView
+       	android:id="@+id/sueldo_textview"
+       	android:paddingTop="15dp"
+       	android:paddingLeft="15dp"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:textColor="#0000FF"
+        android:textSize="17sp"
+       	android:textStyle="bold" />
+	<TextView
+        android:id="@+id/nomina_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="17sp"
+       	android:text="@string/nomina" /> 	
+     <TextView
+       	android:id="@+id/nomina_textview"
+       	android:paddingTop="15dp"
+       	android:paddingLeft="15dp"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:textColor="#0000FF"
+        android:textSize="17sp"
+       	android:textStyle="bold" />
+
+     <TextView
+       	android:id="@+id/extra_titulo"
+       	android:paddingTop="15dp"
+       	android:paddingLeft="15dp"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="@string/extra"
+       	android:textSize="17sp"
+       	android:fontFamily="sans-serif-light" />
+
+      <TextView
+       	android:id="@+id/extra_textview"
+       	android:paddingTop="15dp"
+       	android:paddingLeft="15dp"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:textColor="#0000FF"
+       	android:textSize="17sp"
+       	android:textStyle="bold" />
+       <TextView
+       	android:id="@+id/tipo_titulo"
+       	android:paddingTop="15dp"
+       	android:paddingLeft="15dp"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="@string/tipo"
+       	android:textSize="17sp"
+       	android:fontFamily="sans-serif-light" />
+       <TextView
+       	android:id="@+id/tipo_textview"
+       	android:paddingTop="15dp"
+       	android:paddingBottom="15dp"
+       	android:paddingLeft="15dp"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:textColor="#0000FF"
+       	android:textSize="17sp"
+       	android:textStyle="bold" />
+       <View
+   		android:paddingRight="5dp"
+       	android:layout_height="1dp"
+       	android:layout_columnSpan="2"
+       	android:background="@color/azul"
+       	android:paddingLeft="15dp"/>
+       <TextView
+       	android:layout_columnSpan="2"
+       	android:paddingTop="10dp"
+       	android:paddingLeft="15dp"
+       	android:paddingRight="15dp"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:textSize="12sp"
+       	android:text="@string/aclaracion" />  	
+   </GridLayout> 
+  </ScrollView>
+  <LinearLayout       
+        android:id="@+id/resultado_linear"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>	
+</LinearLayout>
+
+
+
+

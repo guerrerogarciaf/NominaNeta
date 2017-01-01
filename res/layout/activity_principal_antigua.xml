@@ -1,0 +1,209 @@
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:textColor="#0000FF"
+    android:paddingTop="6dp" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/opciones" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1sp"
+        android:background="@color/azul">
+        
+    </View>
+       
+
+    <RelativeLayout 
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">  
+		<TextView
+        	android:paddingTop="9sp"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:textColor="#0000FF"
+       		android:text="@string/estado_civil" /> 	
+   	 	<Spinner
+ 			android:id="@+id/estado_spinner"
+ 			android:layout_alignParentRight="true"
+   			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content" />
+   	</RelativeLayout> 
+   	<RelativeLayout 
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+   	 	android:paddingTop="9sp"> 
+   	 	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	 android:textColor="#0000FF"
+       		android:text="@string/anyo_nacimiento" />
+		<EditText 
+    		android:id="@+id/anyo_edittext" 
+   	    	android:layout_width="65dp" 
+  			android:layout_height="wrap_content" 
+  			android:layout_alignParentRight="true"
+  			android:inputType="number"
+  			android:hint="1970"
+			android:digits="0123456789" />
+   	</RelativeLayout> 
+   	<RelativeLayout 
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">  
+   	 	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	 android:textColor="#0000FF"
+       		android:text="@string/sueldo_bruto_anual" />
+		<EditText 
+    		android:id="@+id/sueldo_edittext" 
+   	    	android:layout_width="85dp" 
+  			android:layout_height="wrap_content" 
+  			android:layout_alignParentRight="true"
+  			android:inputType="number"
+  			android:hint="0€"
+			android:digits="0123456789" />
+   	</RelativeLayout> 
+   	<RelativeLayout 
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">  
+   	 	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:textColor="#0000FF"
+       		android:text="@string/deduccion" />
+   	 	<Spinner
+ 			android:id="@+id/deduccion_spinner"
+ 			android:layout_alignParentRight="true"
+   			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content" />
+   	</RelativeLayout> 
+   	  
+   	   	<RelativeLayout 
+   	   	android:paddingTop="9sp"
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">  
+   	 	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:textColor="#0000FF"
+       		android:text="@string/hijos1" />
+		<EditText 
+    		android:id="@+id/hijos1_edittext" 
+   	    	android:layout_width="45dp" 
+  			android:layout_height="wrap_content" 
+  			android:layout_alignParentRight="true"
+  			android:inputType="number"
+  			android:hint="0"
+			android:digits="0123456789" />
+   	</RelativeLayout> 
+   	<RelativeLayout 
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">  
+   	 	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:textColor="#0000FF"
+       		android:text="@string/hijos2" />
+		<EditText 
+    		android:id="@+id/hijos2_edittext" 
+   	    	android:layout_width="45dp" 
+  			android:layout_height="wrap_content" 
+  			android:layout_alignParentRight="true"
+  			android:inputType="number"
+  			android:hint="0"
+			android:digits="0123456789" />
+   	</RelativeLayout> 
+   		<RelativeLayout 
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">  
+   	 	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:textColor="#0000FF"
+       		android:text="@string/asc1" />
+		<EditText 
+    		android:id="@+id/asc1_edittext" 
+   	    	android:layout_width="45dp" 
+  			android:layout_height="wrap_content" 
+  			android:layout_alignParentRight="true"
+  			android:inputType="number"
+  			android:hint="0"
+			android:digits="0123456789" />
+   	</RelativeLayout> 
+   	<RelativeLayout 
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">  
+   	 	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:textColor="#0000FF"
+       		android:text="@string/asc2" />
+		<EditText 
+    		android:id="@+id/asc2_edittext" 
+   	    	android:layout_width="45dp" 
+  			android:layout_height="wrap_content" 
+  			android:layout_alignParentRight="true"
+  			android:inputType="number"
+  			android:hint="0"
+			android:digits="0123456789" />
+   	</RelativeLayout>
+   	<RelativeLayout 
+		android:paddingTop="9sp"
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">  
+   	 	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:textColor="#0000FF"
+       		android:text="@string/pagas" />
+   	 	<Spinner
+ 			android:id="@+id/pagas_spinner"
+ 			android:layout_alignParentRight="true"
+   			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content" />
+   	</RelativeLayout> 
+   	   <View
+        android:layout_width="fill_parent"
+        android:layout_height="1sp"
+        android:background="@color/azul">
+   	 	</View>
+   	 	 
+   	   <Button
+   	       android:layout_width="wrap_content"
+   	       android:layout_height="wrap_content"
+   	       android:layout_gravity="center_horizontal"
+   	       android:text="@string/calcular_boton" />
+
+</LinearLayout>
+
+
+

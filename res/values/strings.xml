@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="title_activity">Payroll Spain</string>
+    <string name="app_name">Payroll Spain</string>
+    <string name="opciones">Data for calculation</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="estado_lista">
+        <item>Single</item>
+        <item>Married, partner\'s income lower than 1500 € per year</item>
+        <item>Married, partner\'s income greater than 1500 € per year</item>
+    </string-array>
+
+    <color name="blanco">#FFFFFF</color>
+    <color name="azul">#0000FF</color>
+    <color name="gris">#B8B8B8</color>
+
+    <string name="anyo_nacimiento">Year of Birth: </string>
+    <string name="sueldo_bruto_anual">Gross Salary: </string>
+    <string name="estado_civil">Marital Status: </string>
+    <string name="deduccion">Mortgage Deduction: </string>
+    <string name="categoria">Professional Category: </string>
+    <string name="hijos1">Num. of children under age 25 you live with (with income under 8000 €): </string>
+    <string name="hijos2">How many of the above stated are under age 3?: </string>
+    <string name="asc1">Num. of ascendants between ages 65 and 74 you live with (with income under 8000 €): </string>
+    <string name="asc2">Num. of ascendants age 75 or older you live with (with income under 8000 €):  </string>
+    <string name="pagas">Number of Payrolls: </string>
+    <string name="calcular_boton">Calculate</string>
+    <string name="resultado">Result</string>
+    <string name="nomina">Net Payroll: </string>
+    <string name="extra">Net Extra Payroll: </string>
+    <string name="refrescar">Refresh</string>
+    <string name="opcionesmenu">More options</string>
+    <string name="anyo_min">1900</string>
+    <string name="anyo_max">2000</string>
+    <string name="anyo_inicial">1970</string>
+    <string name="error_anyo_inicial">Type a valid year</string>
+    <string name="error_general">Fix errors before continuing</string>
+    <string name="error_hijos">Num. of children under 25 must be greater or equal than num. of children under 3</string>
+	<string name="error_sueldo">Type value greater or equal than the minimum annual salary (9080€)</string>
+	<string name="compartir">Share</string>
+	<string name="recomendar">Recommend Payroll Spain through</string>
+	<string name="tipo">IRPF Rate:</string>
+    <string name="puntuar">Rate</string>
+    <string name="contrato">Contract Type:</string>
+	<string-array name="deduccion_lista">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+	<string-array name="contrato_lista">
+        <item>Permanent</item>
+        <item>Temporary</item>
+    </string-array>
+    <string name="categoria_settings">Settings</string>
+    <string-array name="categoria_lista">
+        <item>Engineers and Graduates</item>
+        <item>Technical Engineers and Qualified Assistants</item>
+        <item>Chief Administrative Officers and Workshop Managers</item>
+        <item>Non Qualified Assistants</item>
+        <item>Administrative Officers</item>
+        <item>Juniors</item>
+        <item>Administrative Clerks</item>
+    </string-array>
+
+    <string name="pagas_settings">Settings</string>
+
+    <string-array name="pagas_lista">
+        <item>14</item>
+        <item>12</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+	<string name="aclaracion">* Calculations in accordance to the spanish tax and social security laws in effect as of January 2016.</string>
+    <string name="enviar_a">Share "Payroll Spain" through</string>
+	<string name="compartir_app">https://play.google.com/store/apps/details?id=com.fgaplicaciones.nominaneta</string>
+</resources>

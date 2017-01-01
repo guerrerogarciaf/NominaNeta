@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="title_activity">Nómina Neta</string>
+    <string name="app_name">Nomina Neta</string>
+    <string name="opciones">Datos para el cálculo</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="estado_lista">
+        <item>Soltero</item>
+        <item>Casado, cónyuge ingresos menores 1500€ año</item>
+        <item>Casado, cónyuge ingresos mayores 1500€ año</item>
+    </string-array>
+
+    <color name="blanco">#FFFFFF</color>
+    <color name="azul">#0000FF</color>
+    <color name="gris">#B8B8B8</color>
+
+    <string name="anyo_nacimiento">Año de nacimiento: </string>
+    <string name="sueldo_bruto_anual">Sueldo bruto: </string>
+    <string name="estado_civil">Estado civil: </string>
+    <string name="deduccion">Deducción vivenda habitual: </string>
+    <string name="categoria">Categoría profesional: </string>
+    <string name="hijos1">Hijos menores de 25 años con los que convive (con rentas no superiores a 8000 €): </string>
+    <string name="hijos2">De los anteriores, ¿cuántos son menores de 3 años?: </string>
+    <string name="asc1">Ascendientes entre 65 y 74 años con los que convive (con rentas no superiores a 8000 €): </string>
+    <string name="asc2">Ascendientes de 75 o mayores con los que convive (con rentas no superiores a 8000 €): </string>
+    <string name="pagas">Número de pagas: </string>
+    <string name="calcular_boton">Calcular</string>
+    <string name="resultado">Resultado</string>
+    <string name="nomina">Nómina neta: </string>
+    <string name="extra">Paga extra neta: </string>
+    <string name="refrescar">Refrescar</string>
+    <string name="opcionesmenu">Más opciones</string>
+    <string name="anyo_inicial">1970</string>
+    <string name="error_anyo_inicial">Introduzca un año válido</string>
+    <string name="error_general">Corrija los errores antes de continuar</string>
+    <string name="error_hijos">El nº hijos menores de 25 años debe ser mayor o igual que el nº hijos menores de 3</string>
+	<string name="error_sueldo">Introduzca un valor igual o superior al salario mínimo (9080€)</string>
+	<string name="compartir">Compartir</string>
+	<string name="recomendar">Recomendar Nómina Neta a través de</string>
+	<string name="tipo">Tipo IRPF:</string>
+    <string name="puntuar">Puntuar</string>
+    <string name="contrato">Tipo de contrato:</string>
+	<string-array name="deduccion_lista">
+        <item>No</item>
+        <item>Si</item>
+    </string-array>
+	<string-array name="contrato_lista">
+        <item>Indefinido</item>
+        <item>Temporal</item>
+    </string-array>
+    <string name="categoria_settings">Settings</string>
+    <string-array name="categoria_lista">
+        <item>Ingenieros y Licenciados</item>
+        <item>Ing. Técnicos y Ayudantes Titulados</item>
+        <item>Jefes Administrativos y de Taller</item>
+        <item>Ayudantes no Titulados</item>
+        <item>Oficiales Administrativos</item>
+        <item>Subalternos</item>
+        <item>Auxiliares Administrativos</item>
+    </string-array>
+
+    <string name="pagas_settings">Settings</string>
+
+    <string-array name="pagas_lista">
+        <item>14</item>
+        <item>12</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+	<string name="aclaracion" >* Cálculos realizados siguiendo la normativa de IRPF y Seguridad Social española vigente en enero de 2016.</string>
+    <string name="enviar_a">Compartir "Nómina Neta" a través de</string>
+	<string name="compartir_app">https://play.google.com/store/apps/details?id=com.fgaplicaciones.nominaneta</string>
+</resources>
